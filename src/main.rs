@@ -1,6 +1,8 @@
 mod cli;
 mod search;
 mod embed;
+mod date_filter;
+mod size_filter;
 
 use clap::Parser;
 use cli::{Args};
